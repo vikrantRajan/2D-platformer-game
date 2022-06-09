@@ -80,7 +80,7 @@ or if you miss the amount of sweat beads that results in a Critical Failure.
 
 ## Truthpick Mini Game:
 
-1. Make the hand shake a little bit (both up/down and left/right).
+1. The hand must shake a little bit (both up/down and left/right).
 
 2. Move the hand with the WASD and arrow keys as well as the joystick for controllers.
 
