@@ -9,15 +9,18 @@ In this readme file you can find a list of my contributions as a software engine
 - Enemy will walk from left to right repeatedly on its platform and only stop to attack when the Player is in front of them
 - Enemy will not fall or walk off of its platform
 Animations: Idle, walk forward, attack, hurt (when it gets hit for a moment), death.
+![plot](./melee_enemy.gif)
 
 2. Ranged Enemy
 - Simple ranged enemy that shoots a projectile
 - Enemy will stand in place in idle animation until the player is close enough to attack
 Animations: idle, shoot, hurt, death
+![plot](./ranged_enemy.gif)
 
 3. Hazards:
 A Hazard Component that can be added to an object that damages the Player when it touches them, so that it can be added to many
 different things.
+![plot](./hazards.gif)
 
 4. Hazard spawner:
 This object will spawn hazard projectiles which shoot in whichever of the 8 directions enabled by checking a public boxes of Left, Up+Left, Up,
@@ -25,6 +28,8 @@ Up+Right, Right, Down+Right, Down, Down+Left.
  - The hazards should be despawned after a certain number of seconds which should be able to adjust.
  - The hazard spawner should also have a cooldown/spawn rate which should be able to adjust.
 Animations: traveling, destruction
+![plot](./hazard_spawner.gif)
+
 
 5. Animation SFX
 - Script to allow designer to attach an audio file and get it to play alongside an animation at specific points during the animation cycle.
