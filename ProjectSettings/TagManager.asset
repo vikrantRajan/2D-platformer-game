@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Platform
+  - Music Controller
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - Ground
+  - Ground Semi
+  - 
+  - PlayerAttackZone
+  - PlayerProjectile
+  - 
+  - Enemy
+  - EnemyAttackZone
+  - 
+  - 
+  - Player1
+  - Player2
+  - Player3
+  - Player4
+  - PlayerSemi
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 1384586485
+    locked: 0
