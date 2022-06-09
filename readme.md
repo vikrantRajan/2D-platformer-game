@@ -14,20 +14,23 @@ Animations: Idle, walk forward, attack, hurt (when it gets hit for a moment), de
 2. Ranged Enemy
 - Simple ranged enemy that shoots a projectile
 - Enemy will stand in place in idle animation until the player is close enough to attack
-Animations: idle, shoot, hurt, death
+- Animations: idle, shoot, hurt, death
+- 
 ![plot](./ranged_enemy.gif)
 
 3. Hazards:
-A Hazard Component that can be added to an object that damages the Player when it touches them, so that it can be added to many
+- A Hazard Component that can be added to an object that damages the Player when it touches them, so that it can be added to many
 different things.
+- 
 ![plot](./hazards.gif)
 
 4. Hazard spawner:
-This object will spawn hazard projectiles which shoot in whichever of the 8 directions enabled by checking a public boxes of Left, Up+Left, Up,
+- This object will spawn hazard projectiles which shoot in whichever of the 8 directions enabled by checking a public boxes of Left, Up+Left, Up,
 Up+Right, Right, Down+Right, Down, Down+Left.
  - The hazards should be despawned after a certain number of seconds which should be able to adjust.
  - The hazard spawner should also have a cooldown/spawn rate which should be able to adjust.
-Animations: traveling, destruction
+- Animations: traveling, destruction
+- 
 ![plot](./hazard_spawner.gif)
 
 
@@ -35,7 +38,7 @@ Animations: traveling, destruction
 - Script to allow designer to attach an audio file and get it to play alongside an animation at specific points during the animation cycle.
 
 6. Background Music
-Background Music that changes based on changing scenes or starting boss fights
+- Background Music that changes based on changing scenes or starting boss fights
 
 ###### Universal Mini Game Rules:
 
@@ -63,11 +66,9 @@ as well as one of the main buttons if using a controller.
 3. The clenched hand will wipe away (destroy) the sweat beads with one swipe.
 But an open hand will take 2 swipes to destroy them.
 
-4. The sweat beads will "Die" on their own once they reach the end of their animation.
-This will not count as "wiping" them, and a certain amount of missed sweat beads
-will result in a critical failure.
+4. The sweat beads will "Die" on their own once they reach the end of their animation. This will not count as "wiping" them, and a certain amount of missed sweat beads will result in a critical failure.
 
-Condition for Winning and Losing:
+- Condition for Winning and Losing:
 A certain amount of missed Sweat beads will result in a Critical Failure,
 a lesser amount will just result in a normal "Success"
 and the mini game will end once you either "Wipe" a certain amount of sweat beads,
@@ -88,7 +89,7 @@ by one of the 2 toothpicks on each side.
 4. Hold the mouse button down to keep holding the Truthpick,
 letting go of the mouse/grab button will open your hand again.
 
-Condtition for Winning and Losing:
+- Condtition for Winning and Losing:
 Getting Pricked too many times will result in a Critical Failure.
 A smaller amount of pricks than that will just be a "Success"
 once you finish the game, and a "Fantastic" will be from not getting pricked a single time.
