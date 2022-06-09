@@ -8,7 +8,8 @@ In this readme file you can find a list of my contributions as a software engine
 - Simple melee enemy that strikes forward
 - Enemy will walk from left to right repeatedly on its platform and only stop to attack when the Player is in front of them
 - Enemy will not fall or walk off of its platform
-Animations: Idle, walk forward, attack, hurt (when it gets hit for a moment), death.
+- Animations: Idle, walk forward, attack, hurt (when it gets hit for a moment), death.
+- 
 ![plot](./melee_enemy.gif)
 
 2. Ranged Enemy
