@@ -74,6 +74,8 @@ A certain amount of missed Sweat beads will result in a Critical Failure,
 a lesser amount will just result in a normal "Success"
 and the mini game will end once you either "Wipe" a certain amount of sweat beads,
 or if you miss the amount of sweat beads that results in a Critical Failure.
+- 
+![plot](./dont_sweat_it.gif)
 
 
 ## Truthpick Mini Game:
@@ -94,3 +96,6 @@ letting go of the mouse/grab button will open your hand again.
 Getting Pricked too many times will result in a Critical Failure.
 A smaller amount of pricks than that will just be a "Success"
 once you finish the game, and a "Fantastic" will be from not getting pricked a single time.
+
+- 
+![plot](./truth_pick.gif)
